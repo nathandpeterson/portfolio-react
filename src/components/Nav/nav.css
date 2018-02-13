@@ -27,10 +27,17 @@
   padding: .5rem;
   border-radius: 15px;
   cursor: pointer;
+  display: none;
 }
 
 .nav-header h3:hover {
   color: black;
   background-color: rgba(102, 255, 255, .7);
   transition: 1s;
+}
+
+@media(min-width:600px){
+  .nav-header h3 {
+    display: inherit;
+  }
 }

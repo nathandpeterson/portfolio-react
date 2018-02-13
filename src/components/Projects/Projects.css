@@ -1,0 +1,18 @@
+
+.projects-container {
+  min-height: 350px;
+}
+
+.project-browser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-image {
+  display: block;
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}

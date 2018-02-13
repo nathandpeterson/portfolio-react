@@ -1,10 +1,26 @@
 .competencies-background{
-  background-color: gray;
+  background-color: yellow;
+  opacity: .7;
   color: white;
-  height: 500px;
+  height: 350px;
   width: 100%;
 }
 
 .competencies-header {
-  font-size: 3rem;
+  font-size: 1.75rem;
+  padding: .75rem;
+  border-radius: 5px;
+  background: white;
+  color: black;
+}
+
+@media(min-width:600px){
+  .competencies-background {
+    height: 550px;
+  }
+
+  .competencies-header {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
 }

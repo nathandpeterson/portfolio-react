@@ -1,2 +1,2 @@
 
-A portfolio site to organize pmy projects.
+A portfolio site to organize my projects.
