@@ -1,5 +1,5 @@
 .competencies-background{
-  background-color: yellow;
+  background-color: gray;
   opacity: .7;
   color: white;
   height: 350px;
@@ -13,6 +13,37 @@
   background: white;
   color: black;
 }
+
+.competencies-columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.competencies-col {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.icon {
+  background-color: white;
+  color: green;
+  padding: .75rem;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+}
+li {
+  width: 100%;
+  text-align: center;
+}
+
 
 @media(min-width:600px){
   .competencies-background {
