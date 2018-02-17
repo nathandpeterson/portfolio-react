@@ -1,9 +1,10 @@
 import React from 'react'
 import './Projects.css'
+import projects from './project_data.jsons'
 
 const Project = () => (
   <div className="project-image">
-    Project Image
+    <img src="" />
   </div>
 )
 

@@ -3,10 +3,10 @@ import './Header.css'
 
 const Header = () => (
   <div className="header-background">
-    <div className="name-text">
-      <h1>Nathan Daniel Peterson</h1>
+    <div >
+      <h1 className="name-text" >Nathan Daniel Peterson</h1>
       <hr />
-      <h2>Full Stack Developer</h2>
+      <h2 className="name-text">Full Stack Developer</h2>
     </div>
 
 

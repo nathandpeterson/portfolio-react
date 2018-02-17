@@ -1,5 +1,19 @@
 
 .footer-container {
-  background-color: gray;
+  background-color: black;
   color: white;
+}
+
+.footer-icon-row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon {
+  color: white;
+  margin: 0 .5rem;
+}
+
+.footer-icon:hover {
+  color: blue;
 }

@@ -1,17 +1,16 @@
 .competencies-background{
-  background-color: gray;
-  opacity: .7;
+  background-color: #C0C0C0;
   color: white;
-  height: 350px;
+  height: 500px;
   width: 100%;
 }
 
 .competencies-header {
   font-size: 1.75rem;
-  padding: .75rem;
+  padding: .25rem .75rem;
   border-radius: 5px;
-  background: white;
-  color: black;
+  background: gray;
+  color: white;
 }
 
 .competencies-columns {
@@ -28,22 +27,33 @@
 }
 
 .icon {
-  background-color: white;
-  color: green;
+  background-color: black;
+  color: white;
   padding: .75rem;
   border-radius: 5px;
   font-size: 2rem;
 }
 
-ul {
-  width: 100%;
-  list-style: none;
-}
-li {
-  width: 100%;
+p {
   text-align: center;
+  color:  black;
+  line-height: 1.2rem;
 }
 
+.skill:hover {
+  background: black;
+  color: white;
+  padding: .25rem;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+p .institution {
+  color: black;
+  background: white;
+  padding: .25rem;
+  border-radius: 5px;
+}
 
 @media(min-width:600px){
   .competencies-background {
@@ -52,6 +62,6 @@ li {
 
   .competencies-header {
     font-size: 3rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 }

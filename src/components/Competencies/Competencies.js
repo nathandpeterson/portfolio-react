@@ -2,7 +2,7 @@ import React from 'react'
 import './Competencies.css'
 
 const Competencies = () => (
-  <div className="competencies-background">
+  <div id="competencies" className="competencies-background">
     <div className="center">
       <h2 className="competencies-header">Core Competencies</h2>
     </div>
@@ -12,12 +12,12 @@ const Competencies = () => (
           <i className="fas fa-lg fa-desktop"></i>
         </div>
         <div className="competencies-text">
-            <p>JavaScript</p>
-            <p>React.js</p>
-            <p>Apollo</p>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>Bootstrap</p>
+          <p className="skill">HTML5</p>
+          <p className="skill">CSS3</p>
+          <p className="skill">JavaScript</p>
+          <p className="skill">React.js</p>
+          <p className="skill">Apollo</p>
+          <p className="skill">Bootstrap</p>
         </div>
       </div>
       <div className="competencies-col">
@@ -25,12 +25,12 @@ const Competencies = () => (
           <i className="fas fa-lg fa-server"></i>
         </div>
         <div className="competencies-text">
-            <p>GraphQL</p>
-            <p>Node.js</p>
-            <p>Express.js</p>
-            <p>PostgreSQL</p>
-            <p>JWT</p>
-            <p>Git/Github</p>
+            <p className="skill">GraphQL</p>
+            <p className="skill">Node.js</p>
+            <p className="skill">Express.js</p>
+            <p className="skill">PostgreSQL</p>
+            <p className="skill">JWT</p>
+            <p className="skill">Git/Github</p>
         </div>
       </div>
       <div className="competencies-col">
@@ -38,11 +38,23 @@ const Competencies = () => (
           <i className="fas fa-lg fa-graduation-cap"></i>
         </div>
         <div className="competencies-text">
-            <p>GALVANIZE</p>
+            <p>
+              <span className="institution">
+              GALVANIZE
+              </span>
+            </p>
             <p>Certificate in Web Development</p>
-            <p>RUTGERS</p>
+            <p>
+              <span className="institution">
+              RUTGERS
+              </span>
+            </p>
             <p>PhD in English</p>
-            <p>PSU</p>
+            <p>
+              <span className="institution">
+              PSU
+              </span>
+            </p>
             <p>BA in English</p>
 
         </div>
