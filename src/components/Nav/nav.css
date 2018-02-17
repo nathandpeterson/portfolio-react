@@ -6,15 +6,15 @@
   top: 0;
   height: 3rem;
   width: 100%;
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   opacity: .8;
   display: flex;
   flex-direction:row-reverse;
   align-items: center;
   z-index: 1000;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-header:hover {

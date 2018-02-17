@@ -1,12 +1,14 @@
 import React from 'react'
 import './Projects.css'
-import projects from './project_data.jsons'
+import projects from './project_data.json'
 
-const Project = () => (
-  <div className="project-image">
-    <img src="" />
+const Project = ({ project }) => {
+  const { title, img, description } = project
+  return <div className="project-image">
+    <h5>{title}</h5>
+    <img src={img} alt={description}/>
   </div>
-)
+}
 
 const Projects = () => (
   <div className="projects-container">
@@ -14,9 +16,9 @@ const Projects = () => (
       <h1>Projects</h1>
     </div>
     <div className="project-browser">
-      <Project />
-      <Project />
-      <Project />
+      {projects.map((project, i) => {
+        return <Project key={i} project={ project } />
+      })}
     </div>
   </div>
 )
