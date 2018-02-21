@@ -1,8 +1,14 @@
 import React from 'react'
 import './Competencies.css'
+import { skills } from '../../skills.js'
 
-const Competencies = () => (
-  <div id="competencies" className="competencies-background">
+const SkillSet = ({ skill }) => {
+  return <p className="skill">{skill}</p>
+}
+
+const Competencies = () => {
+  const { frontend, backend } = skills
+  return <div id="competencies" className="competencies-background">
     <div className="center">
       <h2 className="competencies-header">Core Competencies</h2>
     </div>
@@ -12,12 +18,10 @@ const Competencies = () => (
           <i className="fas fa-lg fa-desktop"></i>
         </div>
         <div className="competencies-text">
-          <p className="skill">HTML5</p>
-          <p className="skill">CSS3</p>
-          <p className="skill">JavaScript</p>
-          <p className="skill">React.js</p>
-          <p className="skill">Apollo</p>
-          <p className="skill">Bootstrap</p>
+          {frontend.map((skill, i) => {
+            return <SkillSet key={i} skill={skill} />
+            }
+          )}
         </div>
       </div>
       <div className="competencies-col">
@@ -25,12 +29,9 @@ const Competencies = () => (
           <i className="fas fa-lg fa-server"></i>
         </div>
         <div className="competencies-text">
-            <p className="skill">GraphQL</p>
-            <p className="skill">Node.js</p>
-            <p className="skill">Express.js</p>
-            <p className="skill">PostgreSQL</p>
-            <p className="skill">JWT</p>
-            <p className="skill">Git/Github</p>
+          {backend.map((skill, i) => {
+            return <SkillSet key={i} skill={skill} />
+          })}
         </div>
       </div>
       <div className="competencies-col">
@@ -56,13 +57,10 @@ const Competencies = () => (
               </span>
             </p>
             <p>BA in English</p>
-
         </div>
-
       </div>
     </div>
-
   </div>
-)
+}
 
 export default Competencies

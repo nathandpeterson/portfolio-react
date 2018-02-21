@@ -5,9 +5,9 @@ import projects from './project_data.json'
 const Project = ({ project }) => {
   const { title, img, description } = project
   return <div className="project-image">
-    <h5>{title}</h5>
-    <img src={img} alt={description}/>
-  </div>
+            <h5>{title}</h5>
+            <img src={img} alt={description}/>
+          </div>
 }
 
 const Projects = () => (

@@ -4,7 +4,7 @@ import './Bio.css'
 const Bio = () => (
   <div className="bio-container">
     <div className="center">
-      <h2>Some Information about myself</h2>
+      <h2>About Me</h2>
     </div>
   </div>
 )
