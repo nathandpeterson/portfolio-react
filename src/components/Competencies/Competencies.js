@@ -1,6 +1,6 @@
 import React from 'react'
 import './Competencies.css'
-import { skills } from '../../skills.js'
+import { skills } from '../../data.js'
 
 const SkillSet = ({ skill }) => {
   return <p className="skill">{skill}</p>

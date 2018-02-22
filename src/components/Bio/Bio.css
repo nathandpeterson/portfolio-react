@@ -1,17 +1,31 @@
 .bio-container {
-  height: 350px;
+  height: 400px;
   color: white;
   background: #0575e6; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0575e6, #D0D0D0); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #0575e6, #D0D0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bio-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .headshot-container {
-  height: 200px;
-  width: 200px;
+  margin: 0 3rem;
 }
 
 .headshot-container img {
-  margin-left: 5rem;
   width: 100%;
+  border-radius: 5px;
+}
+
+
+.bio-container p {
+  font-size: 1.5rem;
+  line-height: normal;
+  padding: 0 7rem;
+  background: rgba(220,220,220, .5);
+  border-radius: 5px;
 }
