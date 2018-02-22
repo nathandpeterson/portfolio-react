@@ -4,10 +4,10 @@ import './nav.css'
 const Nav = () => (
   <nav>
     <div className="nav-header">
-      <h3>about me</h3>
-      <h3>projects</h3>
-      <h3>blog</h3>
-      <h3>skills</h3>
+      <a href="#bio"><h3>about me</h3></a>
+      <a href="#projects"><h3>projects</h3></a>
+      <a href=""><h3>blog</h3></a>
+      <a href="#competencies"><h3>skills</h3></a>
     </div>
   </nav>
 )

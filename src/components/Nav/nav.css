@@ -19,7 +19,6 @@
 
 .nav-header:hover {
   opacity: 1;
-  color: lavender;
 }
 
 .nav-header h3 {
@@ -28,6 +27,7 @@
   border-radius: 15px;
   cursor: pointer;
   display: none;
+  color: white;
 }
 
 .nav-header h3:hover {

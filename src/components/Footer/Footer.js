@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => (
   <div className="footer-container">
     <div className="center">
-      <h2>Copyright 2018</h2>
+      <h2>ndp 2018</h2>
     </div>
     <div className="footer-icon-row">
         <a className="footer-icon" href="https://github.com/nathandpeterson/">

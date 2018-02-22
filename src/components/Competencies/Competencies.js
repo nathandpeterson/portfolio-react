@@ -1,14 +1,19 @@
 import React from 'react'
 import './Competencies.css'
 import { skills } from '../../data.js'
+import { Flip } from 'react-reveal'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const SkillSet = ({ skill }) => {
-  return <p className="skill">{skill}</p>
+  return<Flip>
+          <p className="skill">{skill}</p>
+        </Flip>
 }
 
 const Competencies = () => {
   const { frontend, backend } = skills
-  return <div id="competencies" className="competencies-background">
+  return <ScrollableAnchor id="competencies">
+  <div className="competencies-background">
     <div className="center">
       <h2 className="competencies-header">Core Competencies</h2>
     </div>
@@ -61,6 +66,7 @@ const Competencies = () => {
       </div>
     </div>
   </div>
+  </ScrollableAnchor>
 }
 
 export default Competencies

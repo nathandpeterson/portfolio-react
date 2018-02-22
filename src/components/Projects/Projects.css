@@ -1,6 +1,6 @@
 
 .projects-container {
-  min-height: 650px;
+  min-height: 550px;
   background: gray;
 }
 
@@ -10,17 +10,34 @@
   justify-content: space-around;
 }
 
-.project-image {
+.project-card {
   text-align: center;
   min-height: 200px;
   max-height: 500px;
   width: 350px;
-  background: white;
+  border-radius: 5px;
   font-size: 2rem;
   margin: 1rem;
 }
 
-.project-image img {
+.project-title {
+  background: white;
+  display: inline;
+  padding: 1rem;
+  border-radius: 7px;
+  opacity: .7;
+  color: aqua;
+}
+
+.project-title:hover {
+  opacity: 1;
+  background: aqua;
+  color: white;
+  transition: 1s;
+}
+
+.project-card img {
+  margin-top: 2.5rem;
   max-width: 100%;
   max-height: 300px;
 }

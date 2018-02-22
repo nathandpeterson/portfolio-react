@@ -15,5 +15,6 @@
 }
 
 .footer-icon:hover {
-  color: blue;
+  color: aqua;
+  transition: 1s;
 }
