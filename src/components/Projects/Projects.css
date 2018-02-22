@@ -42,6 +42,10 @@
   max-height: 300px;
 }
 
+.project-description {
+  display: none;
+}
+
 a, u {
   text-decoration: none;
 }

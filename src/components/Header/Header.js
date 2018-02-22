@@ -7,9 +7,7 @@ const Header = () => (
     <div>
       <Fade>
         <h1 className="name-text" >Nathan Daniel Peterson</h1>
-      </Fade>
-      <hr />
-      <Fade>
+        <hr />
         <h2 className="name-text">Full Stack Developer</h2>
       </Fade>
     </div>

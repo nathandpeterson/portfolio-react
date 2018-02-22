@@ -43,26 +43,28 @@ const Competencies = () => {
         <div className="icon">
           <i className="fas fa-lg fa-graduation-cap"></i>
         </div>
-        <div className="competencies-text">
-            <p>
-              <span className="institution">
-              GALVANIZE
-              </span>
-            </p>
-            <p>Certificate in Web Development</p>
-            <p>
-              <span className="institution">
-              RUTGERS
-              </span>
-            </p>
-            <p>PhD in English</p>
-            <p>
-              <span className="institution">
-              PSU
-              </span>
-            </p>
-            <p>BA in English</p>
-        </div>
+        <Flip>
+          <div className="competencies-text">
+              <p>
+                <span className="institution">
+                GALVANIZE
+                </span>
+              </p>
+              <p>Certificate in Web Development</p>
+              <p>
+                <span className="institution">
+                RUTGERS
+                </span>
+              </p>
+              <p>PhD in English</p>
+              <p>
+                <span className="institution">
+                PSU
+                </span>
+              </p>
+              <p>BA in English</p>
+          </div>
+        </Flip>
       </div>
     </div>
   </div>
