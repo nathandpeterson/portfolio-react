@@ -7,8 +7,8 @@ const Header = () => (
     <div>
       <Fade>
         <h1 className="name-text" >Nathan Daniel Peterson</h1>
-        <hr />
-        <h2 className="name-text">Full Stack Developer</h2>
+        <br />
+        <h3 className="name-text">Full Stack Developer</h3>
       </Fade>
     </div>
   </div>

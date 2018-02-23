@@ -1,22 +1,32 @@
-[{ "id": 1,
+[
+  { "id": 1,
   "title": "podspeak",
   "description": "Social podcast player build with React, Apollo, GraphQL.",
   "demo": "https://podspeak.surge.sh",
-  "github": "https://github.com/nathandpeterson/podspeak-frontend",
-  "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/podspeak.png"
+  "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/podspeak.png",
+  "frontend": "https://github.com/nathandpeterson/podspeak-frontend",
+  "backend": "https://github.com/nathandpeterson/podspeak-api"
   },
   { "id": 2,
     "title": "word-rumpus",
     "description": "App that teaches children to spell and read. Galvanize Q3 group project. Contributers: Nathan Peterson, Lena Venable, Kyle Braden",
     "demo": "https://wordrumpus.surge.sh",
-    "github": "https://github.com/nathandpeterson/emoji-app-frontend",
-    "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/emoji1.png"
+    "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/emoji1.png",
+    "frontend": "https://github.com/nathandpeterson/emoji-app-frontend",
+    "backend": "https://github.com/nathandpeterson/emoji-api"
     },
     { "id": 3,
       "title": "food-brain",
       "description": "Foodbrain is a food-and-recipe-management tool that helps you keep track of your food, so you don't have to think so much about what to cook. You can easily enter your foods into the app and get recipes recommendations based on your current foods.",
       "demo": "https://foodbrain.surge.sh",
-      "github": "https://github.com/nathandpeterson/foodbrain-frontend",
-      "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/foodbrain.png"
-      }
-  ]
+      "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/foodbrain.png",
+      "frontend": "https://github.com/nathandpeterson/foodbrain-frontend",
+      "backend": "https://github.com/nathandpeterson/foodbrain-api"
+    },
+      {"id": 4,
+        "title": "island of despair",
+        "description": "",
+        "demo": "",
+        "img": "",
+        "repo": ""}
+]

@@ -9,8 +9,6 @@
     "react-scripts": "1.1.1",
     "react-scroll": "^1.7.6",
     "react-scrollable-anchor": "^0.6.1",
-    "react-sliding-pane": "^2.0.2",
-    "react-transitions": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
