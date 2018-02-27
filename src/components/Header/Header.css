@@ -3,11 +3,13 @@
     height: 300px;
     display: flex;
     flex-flow: column;
+    margin-top: 3rem;
     justify-content: center;
     z-index: -1000;
     background:url('../../img/computer.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     line-height: 4.5rem;
 }

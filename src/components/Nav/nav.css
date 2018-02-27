@@ -36,6 +36,38 @@
   transition: 1s;
 }
 
+.bm-burger-button {
+  position: fixed;
+  width: 1.4rem;
+  height: 1.25rem;
+  top: 1.25rem;
+  left: 1.25rem;
+}
+
+.bm-burger-bars {
+  position: fixed;
+  background: white
+}
+
+.bm-menu {
+  background: #373a47;
+  font-size: 1.15rem;
+}
+
+.bm-item-list {
+  color: white;
+  background-color: #b388ff;
+  z-index: 1001;
+  padding: 0.8em;
+  position: absolute;
+}
+
+.bm-menu-wrap {
+  z-index: 1100;
+  overflow: visible;
+  height: 30rem;
+}
+
 @media(min-width:600px){
   .nav-header h3 {
     display: inherit;
