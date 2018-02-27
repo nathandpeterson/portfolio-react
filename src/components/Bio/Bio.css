@@ -21,6 +21,10 @@
   border-radius: 5px;
 }
 
+.bio-info {
+  height: 100px;
+}
+
 .bio-container p {
   line-height: normal;
   padding: 0 2rem;
