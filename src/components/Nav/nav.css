@@ -68,8 +68,17 @@
   height: 30rem;
 }
 
-@media(min-width:600px){
+@media(min-width:600px) {
   .nav-header h3 {
     display: inherit;
+  }
+  .bm-burger-bars {
+    display: none;
+  }
+  .bm-burger-button {
+    display: none;
+  }
+  .nav-bar {
+    position: fixed;
   }
 }
