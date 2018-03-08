@@ -8,6 +8,21 @@
   "backend": "https://github.com/nathandpeterson/podspeak-api"
   },
   { "id": 2,
+    "title": "market-view",
+    "description": "Simple data visualization for stocks. User can enter stock symbols and get a quick snapshot of trading information. React, API, Victory, Materialize",
+    "demo": "http://market-view.surge.sh/",
+    "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/line-chart.png",
+    "frontend": "https://github.com/nathandpeterson/market-watch"
+    },
+  { "id": 3,
+    "title": "food-brain",
+    "description": "Foodbrain is a food-and-recipe-management tool that helps you keep track of your food, so you don't have to think so much about what to cook. You can easily enter your foods into the app and get recipes recommendations based on your current foods.",
+    "demo": "https://foodbrain.surge.sh",
+    "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/foodbrain.png",
+    "frontend": "https://github.com/nathandpeterson/foodbrain-frontend",
+    "backend": "https://github.com/nathandpeterson/foodbrain-api"
+  },
+  { "id": 4,
     "title": "word-rumpus",
     "description": "App that teaches children to spell and read. Galvanize Q3 group project. Contributers: Nathan Peterson, Lena Venable, Kyle Braden",
     "demo": "https://wordrumpus.surge.sh",
@@ -15,18 +30,10 @@
     "frontend": "https://github.com/nathandpeterson/emoji-app-frontend",
     "backend": "https://github.com/nathandpeterson/emoji-api"
     },
-    { "id": 3,
-      "title": "food-brain",
-      "description": "Foodbrain is a food-and-recipe-management tool that helps you keep track of your food, so you don't have to think so much about what to cook. You can easily enter your foods into the app and get recipes recommendations based on your current foods.",
-      "demo": "https://foodbrain.surge.sh",
-      "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/foodbrain.png",
-      "frontend": "https://github.com/nathandpeterson/foodbrain-frontend",
-      "backend": "https://github.com/nathandpeterson/foodbrain-api"
-    },
-      {"id": 4,
-        "title": "island of despair",
-        "description": "",
-        "demo": "",
-        "img": "",
-        "repo": ""}
+  {"id": 5,
+      "title": "island of despair",
+      "description": "A time-based survival game based on the plot of Daniel Defoe's Robinson Crusoe. JavaScript, HTML, CSS, Bootstrap",
+      "demo": "http://island-of-despair.surge.sh/",
+      "img": "https://s3.us-east-2.amazonaws.com/p-img-2018/island.png",
+      "repo": "https://github.com/nathandpeterson/island-of-despair"}
 ]

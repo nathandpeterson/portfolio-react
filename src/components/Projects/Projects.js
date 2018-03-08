@@ -59,8 +59,8 @@ class Projects extends Component {
       
         <div className="project-browser">
           {this.fullstack.map((project, i) => this.project(project)) }
+          {this.frontend.map((project, i) => this.project(project))}
         </div>
-
           {this.state.detail && this.projectDetail(this.state.detail) }
 
       </div>
