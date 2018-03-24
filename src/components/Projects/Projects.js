@@ -12,7 +12,7 @@ class Projects extends Component {
   frontend = projects.filter(project => !project.backend)
 
   projectDetail = (project_id) => {
-    const project = projects.find(proj => proj.id == project_id)
+    const project = projects.find(proj => proj.id === parseInt(project_id, 10))
     const { title, description, demo, frontend } = project
     const backend = project.backend || null
     return  <div className="project-detail-card">

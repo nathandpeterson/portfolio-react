@@ -13,7 +13,8 @@ const Bio = () => (
       <div className="bio-row">
         <div className="headshot-container">
           <Fade>
-            <img src={'http://res.cloudinary.com/ndpimg/image/upload/v1520615371/nathan_bellingham.jpg'}/>
+            <img  src={'http://res.cloudinary.com/ndpimg/image/upload/v1520615371/nathan_bellingham.jpg'} 
+                  alt='Nathan'/>
           </Fade>
         </div>
         <div className="bio-info">
